@@ -1,4 +1,4 @@
-clear
+function [] = run_AOM_model_twobox()
 
 % SET CONSTANTS
 R13VPDB   = 0.011202;
