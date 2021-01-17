@@ -12,4 +12,6 @@ There are two main functions to run the models:
 Run the function `run_AOM_model_twobox()`.
 
 ### Four-box model
-Run the function `run_AOM_model()`.
+Consists of three functions, which are initiallized by running the function `run_AOM_model()`, which will use the best fit model parameters to generate a figure for the change of isptope compositions of methane and DIC with time. 
+In the function `run_bioiso_model` the user can manually change the initial model conditions (concentrations, kinetic fractionation factors from the literature, equilibrium fractionation factors).
+The function `AOM_ODEs_solver` is the ODE solver for the model.
