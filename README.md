@@ -15,3 +15,6 @@ Run the function `run_AOM_model_twobox()`.
 Consists of three functions, which are initiallized by running the function `run_AOM_model()`, which will use the best fit model parameters to generate a figure for the change of isptope compositions of methane and DIC with time. 
 In the function `run_bioiso_model` the user can manually change the initial model conditions (concentrations, kinetic fractionation factors from the literature, equilibrium fractionation factors).
 The function `AOM_ODEs_solver` is the ODE solver for the model.
+
+## Additional information
+Please contact me for questions/help with using this code at jonathan[dot]gropp[at]weizmann[dot]ac[dot]il.
